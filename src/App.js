@@ -10,6 +10,7 @@ import Posts from './components/Posts/Posts';
 import PostDetail from './components/PostDetail/PostDetail';
 import Countries from './components/Countries/Countries';
 import CountryDetail from './components/CountryDetail/CountryDetail';
+import Restaurants from './components/Restaurants/Restaurants';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/posts/:postId" element={<PostDetail></PostDetail>}></Route>
         <Route path="/countries" element={<Countries></Countries>}></Route>
         <Route path="/country/:countryName" element={<CountryDetail></CountryDetail>}></Route>
+        <Route path="/restaurants" element={<Restaurants></Restaurants>}></Route>
         <Route path='/about' element={<About />}></Route>
         <Route path='*' element={<NotFound />}></Route>
       </Routes>
