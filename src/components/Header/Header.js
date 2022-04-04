@@ -4,9 +4,10 @@ import CustomLink from '../CustomLink/CustomLink';
 const Header = () => {
     return (
         <div>
-            <h2 style={{ color: '#CF202A' }}> reactRouter | https://reactrouter.com/</h2>
+            <h3 style={{ color: '#CF202A' }}> reactRouter - রিয়েক্ট রাউটার | https://reactrouter.com/</h3>
             <nav>
                 <CustomLink to="/">Home</CustomLink>
+                <CustomLink to="/posts">Posts</CustomLink>
                 <CustomLink to="/friends">Friends</CustomLink>
                 <CustomLink to="/about">AboutUs</CustomLink>
             </nav>
